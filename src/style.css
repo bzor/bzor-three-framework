@@ -1,0 +1,95 @@
+html {
+
+  margin: 0;
+  height: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action:  none;
+
+}
+
+body {
+
+  margin: 0;
+  width:  100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-size: 8px;
+  font-family: Sans-Serif;
+
+}
+
+@font-face {
+
+  font-family: "Mono0855";
+  src: url( './fonts/Mono0855.ttf' );
+
+}
+
+.font-load {
+
+  position: absolute;
+  top: -100px;
+  opacity: 0;
+  font-family: "Mono0855";
+  font-size:  32px;
+  color: white;
+  display:inline-block;
+
+}
+
+canvas {
+
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+
+}
+
+.contain {
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+.fade {
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+
+}
+
+#loader {
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 4px;
+  width: 100px;
+  border-radius: 50px;
+  transform: translate(-50px, -50px);
+  background-color: #EEE;
+
+}
+
+#loader-bar {
+
+  position: absolute;
+  background-color: #666;
+  width: 4%;
+  height: 100%;
+  border-radius: 2px;
+
+}
